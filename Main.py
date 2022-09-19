@@ -4,7 +4,7 @@ def display_hash(hashtable) -> None:
 	for keyvalue in range(len(hashtable)):
 		content = hashtable[keyvalue]
 		print(keyvalue,end=" ")
-		for elemenet in content:
+		for element in content:
 			print("-->",element,end =" ")
 		print()
 
