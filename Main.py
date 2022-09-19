@@ -1,7 +1,7 @@
 import re
 
 def display_hash(hashtable) -> None:
-	for keyvalue in range(len(hashtable):
+	for keyvalue in range(len(hashtable)):
 		cont = Hashtable[keyvalue]
 		print(keyvalue,end=" ")
 		for elemenet in con:
