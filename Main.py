@@ -2,9 +2,9 @@ import re
 
 def display_hash(hashtable) -> None:
 	for keyvalue in range(len(hashtable)):
-		cont = Hashtable[keyvalue]
+		content = hashtable[keyvalue]
 		print(keyvalue,end=" ")
-		for elemenet in con:
+		for elemenet in content:
 			print("-->",element,end =" ")
 		print()
 
